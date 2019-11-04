@@ -5,21 +5,21 @@ Proyecto dirigido en el desarrollo de una plataforma web que permitirá a los us
 
 ## Proceso del Desarrollo:
 
-- Interfaz Gráfica:
+### Interfaz Gráfica:
 * Bootstrap4
 * Jquery
 * HTML5
 
-- Lenguajes de Programación:
+### Lenguajes de Programación:
 * PHP7.2
 * JavaScript
 * CSS3
 * GD2
 
-- Base de Datos:
+### Base de Datos:
 * SQLite3
 
-- Interfaz de Usuario:
+### Interfaz de Usuario:
 * Selección de fondos
 * Selección de fuentes
 * Selección de colores
