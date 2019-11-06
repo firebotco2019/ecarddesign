@@ -1,0 +1,46 @@
+<?php
+
+class TMPL {
+
+function BeginHTML5(){
+// Función que Genera el Código HTML de la página desde el Inicio
+echo <<<EOF
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <!-- Alex2, Deisy y Mariana Aquí Comienzan los Includes css y js-->
+    <!-- Aqui se Incluirán las Meta Etiquetas, los "Link rel", Los Script de JavaScript o JQuery -->
+
+
+
+    <!-- Fin de los Includes-->
+  </head>
+<body>
+
+EOF;
+}
+
+function EndHTML5(){
+// Función que Termina la Página HTML
+// No tocar esta función
+echo <<<EOF
+
+</body>
+</html>
+EOF;
+}
+
+function PageIndex(){
+// Función que carga el Contenido de la Página
+echo <<<EOF
+<!-- Escribe el HTML5 desde Aquí -->
+
+<h1>Hola Grupo Integración</h1>
+
+
+<!-- Aquí Termina la Página HTML5 -->
+EOF;
+}
+
+}
