@@ -27,3 +27,16 @@ Proyecto dirigido en el desarrollo de una plataforma web que permitirá a los us
 * Opciones de textos
 * Vista Preliminar
 * Botones de Opciones
+
+### Distribución
+* dev {Estructura en Desarrollo}
+* prod {Estructura de Producción}
+
+#### Estructura General
+* api {Distribución de la Clase API}
+* dbase {Almacenamiento de la Base de Datos en SQLite3}
+* inetpub {Raiz de publicación Web}
+  * css {Almacenamiento de los Estilos en Cascada}
+  * js {Almacenamiento de las librerías de JavaScript y JQuery}
+  * fonts {Repositorio fuentes otf y ttf}
+  * images {Repositorio de imágenes, fondos y logos del proyecto}
