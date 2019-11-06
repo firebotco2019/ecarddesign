@@ -8,4 +8,6 @@ CREATE TABLE IF NOT EXISTS "usuarios" (
 	"clave"	TEXT NOT NULL,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
+INSERT INTO "usuarios" VALUES (1,'Alexander','Rubio Cáceres','ceo@firebot.co','cosmodev','.cosmo1.');
+INSERT INTO "usuarios" VALUES (2,'Mariana Alexandra','Rodriguez Garzón','86.marianarodriguez@gmail.com','mrodriguez','.mrodriguez1.');
 COMMIT;
