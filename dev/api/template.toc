@@ -1,0 +1,27 @@
+<?php
+
+class TMPL {
+
+function BeginHTML5(){
+echo <<<EOF
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <!-- Aqui se Incluirán las Meta Etiquetas, los "Link rel", Los Script de JavaScript o JQuery -->
+
+    <!-- Fin de los Includes -->
+  </head>
+<body>
+
+EOF;
+}
+
+function EndHTML5(){
+echo <<<EOF
+</body>
+</html>
+EOF;
+}
+
+}
