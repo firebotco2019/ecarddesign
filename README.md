@@ -1,5 +1,5 @@
-# EcardDesign
-Diseño de Tarjetas de Presentación OnLine
+﻿# EcardDesign
+Diseño de Tarjetas de Presentación OnLine.
 
 Proyecto dirigido en el desarrollo de una plataforma web que permitirá a los usuarios, crear, diseñar y guardar tarjetas de presentación seleccionando fuentes, logotipos, colores e imágenes de fondo; permitiendo la exportación de las tarjetas para su impresión.
 
