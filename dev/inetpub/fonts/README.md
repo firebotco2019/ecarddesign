@@ -1,3 +1,3 @@
-# Fuentes
+# JavaScript
 
-Aquí incluiremos todas las fuentes requeridas para darle mayor funcionalidad al proyecto
+Aquí Incluiremos todos los archivos de javascript incluyendo JQuery
