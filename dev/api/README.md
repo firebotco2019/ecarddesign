@@ -11,4 +11,4 @@
   * Incluye la Llamada a Clases CSS, BootStrap4, JavaScript y Jquery
 
 * main.inc
-  * Estructura estática de la integrción entre las clases de la API.
+  * Estructura estática de la integración entre las clases de la API.
