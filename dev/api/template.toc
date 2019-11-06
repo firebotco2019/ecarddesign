@@ -19,8 +19,15 @@ EOF;
 
 function EndHTML5(){
 echo <<<EOF
+
 </body>
 </html>
+EOF;
+}
+
+function PageIndex(){
+echo <<<EOF
+<h1>Hola Grupo Integración</h1>
 EOF;
 }
 

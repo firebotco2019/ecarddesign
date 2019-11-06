@@ -14,10 +14,11 @@ class API {
 function MakeIndex(){
 $template = new TMPL();
 $Inicio = $template->BeginHTML5();
+$Index = $template->PageIndex();
 $Fin = $template->EndHTML5();
 echo <<<EOF
 $Inicio
-
+$Index
 $Fin
 EOF;
 }
