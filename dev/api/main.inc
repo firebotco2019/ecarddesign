@@ -24,3 +24,6 @@ EOF;
 }
 
 }
+
+
+$main = new API();
