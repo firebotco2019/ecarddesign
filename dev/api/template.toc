@@ -103,7 +103,7 @@ echo <<<EOF
 </div>
 <div class="col">
 <div class="card border-info ">
-    <div class="card-header bg-info text-white font-weight-bold">Previzualización de la Tarjeta</div>
+    <div class="card-header bg-info text-white font-weight-bold">Previsualización de la Tarjeta</div>
     <div class="card-body bg-light">
     <img id="previo">
     </div>
