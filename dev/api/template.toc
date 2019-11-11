@@ -9,10 +9,15 @@ echo <<<EOF
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <!-- Alex2, Deisy y Mariana Aquí Comienzan los Includes css y js-->
     <!-- Aqui se Incluirán las Meta Etiquetas, los "Link rel", Los Script de JavaScript o JQuery -->
 
-
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/integracion.css">
+    <script src="/js/query-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/integracion.js"></script>
 
     <!-- Fin de los Includes-->
   </head>
