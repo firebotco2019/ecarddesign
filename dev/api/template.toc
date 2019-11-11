@@ -14,11 +14,12 @@ echo <<<EOF
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/css/integracion.css"> <!-- En este archivo escribiremos los estilos personalizados -->
-    <script src="/js/query-3.3.1.min.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/integracion.js"></script> <!-- En este archivo escribiremos las funciones personalizadas -->
 
@@ -44,8 +45,71 @@ function PageIndex(){
 echo <<<EOF
 <!-- Escribe o Copia y Pega el Código HTML5 desde Aquí -->
 
-<h1>Hola Grupo Integración</h1>
-Contenido de Prueba
+<h1 class="p-3">eCardDesign</h1>
+<ul><li>Crea y Diseña tus Tarjetas de Presentación.</li></ul>
+
+<div id="ecard" class="p-3">
+<div class="row">
+<div class="col mb-3">
+<form>
+<fieldset class="rounded border border-info p-3">
+<legend class="rounded bg-info text-white h6 font-weight-bold p-2">Datos del Usuario</legend>
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-pencil"></i></span>
+    </div>
+    <input type="text" class="form-control form-control-sm" id="nombre_persona" placeholder="Ingresa tu Nombre.">
+</div>
+
+<div class="p-1"></div>
+
+<div class="row">
+<div class="col">
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-unsorted"></i></span>
+    </div>
+    <input type="text" class="wi20 form-control form-control-sm" id="fsize" placeholder="12" title="Tamaño del Texto">
+</div>
+</div>
+<div class="col">
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-refresh"></i></span>
+    </div>
+    <input type="text" class="form-control form-control-sm" id="anglex" placeholder="0" title="Ángulo del Texto">
+</div>
+</div>
+<div class="col">
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-caret-square-o-up"></i></span>
+    </div>
+    <input type="text" class="form-control form-control-sm" id="posx" placeholder="10" title="Posición Vertical">
+</div>
+</div>
+<div class="col">
+<div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-caret-square-o-right"></i></span>
+    </div>
+    <input type="text" class="form-control form-control-sm" id="posy" placeholder="20" title="Posición Horizontal">
+</div>
+</div>
+</div>
+
+</fieldset>
+</form>
+</div>
+<div class="col">
+<div class="card border-info ">
+    <div class="card-header bg-info text-white font-weight-bold">Previzualización de la Tarjeta</div>
+    <div class="card-body bg-light">
+    <img id="previo">
+    </div>
+</div>
+</div>
+</div>
 
 <!-- Aquí Termina la Página HTML5 -->
 EOF;
