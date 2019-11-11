@@ -42,10 +42,10 @@ EOF;
 function PageIndex(){
 // Función que carga el Contenido de la Página
 echo <<<EOF
-<!-- Escribe el HTML5 desde Aquí -->
+<!-- Escribe o Copia y Pega el Código HTML5 desde Aquí -->
 
 <h1>Hola Grupo Integración</h1>
-
+Contenido de Prueba
 
 <!-- Aquí Termina la Página HTML5 -->
 EOF;
