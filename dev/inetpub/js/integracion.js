@@ -29,5 +29,5 @@ $( document ).ready(function() {
 });
 
 function eCard(NombrePersona, Angle, PosX, PosY, FSize){
- $("#previo").css({"background-image":"url(/ecard.php?nombrepersona=" + NombrePersona + "&angle=" + Angle + "&posx=" + PosX + "&posy=" + PosY + "&fsize=" + FSize + ")", "background-repeat":"no-repeat", "background-size":"cover", "-webkit-background-size":"cover"})
+ $("#previo").css({"background-image":"url(ecard.php?nombrepersona=" + NombrePersona + "&angle=" + Angle + "&posx=" + PosX + "&posy=" + PosY + "&fsize=" + FSize + ")", "background-repeat":"no-repeat", "background-size":"cover", "-webkit-background-size":"cover"})
 }
