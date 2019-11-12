@@ -22,3 +22,14 @@ iframe {
 .wi20 {
  width:20px;
 }
+
+.footerx {
+  position: fixed;
+  padding-top:10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #336699;
+  color: white;
+  text-align: center;
+}

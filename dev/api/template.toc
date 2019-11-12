@@ -16,12 +16,12 @@ echo <<<EOF
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/css/integracion.css"> <!-- En este archivo escribiremos los estilos personalizados -->
-    <script src="/js/jquery-3.3.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/integracion.js"></script> <!-- En este archivo escribiremos las funciones personalizadas -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/integracion.css"> <!-- En este archivo escribiremos los estilos personalizados -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/integracion.js"></script> <!-- En este archivo escribiremos las funciones personalizadas -->
 
     <!-- Fin de los Includes-->
   </head>
@@ -109,6 +109,10 @@ echo <<<EOF
     </div>
 </div>
 </div>
+</div>
+
+<div class="footerx">
+  <p>Trabajo Integración Continua / Politécnico Gran Colombiano 2019</p>
 </div>
 
 <!-- Aquí Termina la Página HTML5 -->

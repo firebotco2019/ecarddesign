@@ -4,6 +4,7 @@ class eCard {
 
 function MakeCard($shapex, $shapey, $bgcolor, $fuente, $textox, $textoy, $texto_color, $texto_size, $texto_angle, $texto){
  header('Content-Type: image/png');
+ // putenv('GDFONTPATH=' . realpath('.') . '/fonts');
  $im = imagecreatetruecolor($shapex, $shapey);
  switch($bgcolor){
    case "blanco":
@@ -29,10 +30,10 @@ function MakeCard($shapex, $shapey, $bgcolor, $fuente, $textox, $textoy, $texto_
  }
  switch($fuente){
    case "Ubuntu":
-     $font = "fonts/Ubuntu-Regular.ttf";
+     $font = realpath('.') . '/fonts/Ubuntu.ttf';
      break;
    default:
-     $font = "fonts/Ubuntu-Regular.ttf";
+     $font = realpath('.') . '/fonts/Ubuntu.ttf';
      break;
  }
  imagefilledrectangle($im, 0, 0, $shapex, $shapey, $bg_color);
