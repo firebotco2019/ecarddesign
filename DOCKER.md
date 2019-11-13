@@ -19,7 +19,10 @@ creará una subred: 172.25.0.0/16
 ## IP contenedores:
 
 lamp: 172.25.0.11
+
 lamp1: 172.25.0.12
+
+##
 
 ahora comandos de docker para visualizar lo que se creó
 
