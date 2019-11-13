@@ -1,0 +1,49 @@
+version : '2'
+
+services:
+
+  lamp:
+    image: alexcheng/apache2-php7
+    container_name: lamp
+    stdin_open: true
+    tty: true
+    restart: always
+    expose:
+      - '80'
+      - '443'
+    volumes:
+      - app_data_lamp:/var/www/html
+      - ./dev:/var/www/ecarddesign
+      - ./etc/apache2/sites-enabled:/etc/apache2/sites-enabled/:ro
+    networks:
+      default:
+        ipv4_address: 172.25.0.11
+
+  lamp1:
+    image: alexcheng/apache2-php7
+    container_name: lamp1
+    stdin_open: true
+    tty: true
+    restart: always
+    expose:
+      - '80'
+      - '443'
+    volumes:
+      - app_data_lamp1:/var/www/html
+      - ./dev:/var/www/ecarddesign
+      - ./etc/apache2/sites-enabled:/etc/apache2/sites-enabled/:ro
+    networks:
+      default:
+        ipv4_address: 172.25.0.12
+
+networks:
+  default:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet:  172.25.0.0/16
+
+volumes:
+  app_data_lamp:
+  app_data_lamp1:
