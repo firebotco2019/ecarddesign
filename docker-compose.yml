@@ -1,13 +1,16 @@
-version : '2'
+version: '3'
 
 services:
 
   lamp:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: alexcheng/apache2-php7
     container_name: lamp
     stdin_open: true
     tty: true
-    restart: always
+    restart: unless-stopped
     expose:
       - '80'
       - '443'
