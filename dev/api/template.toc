@@ -83,7 +83,7 @@ echo <<<EOF
 <div class="col">
 <div class="input-group">
     <div class="input-group-prepend">
-      <span class="input-group-text"><i class="fa fa-caret-square-o-up"></i></span>
+      <span class="input-group-text"><i class="fa fa-caret-square-o-right"></i></span>
     </div>
     <input type="text" class="form-control form-control-sm" id="posx" placeholder="10" title="Posición Vertical">
 </div>
@@ -91,7 +91,7 @@ echo <<<EOF
 <div class="col">
 <div class="input-group">
     <div class="input-group-prepend">
-      <span class="input-group-text"><i class="fa fa-caret-square-o-right"></i></span>
+      <span class="input-group-text"><i class="fa fa-caret-square-o-up"></i></span>
     </div>
     <input type="text" class="form-control form-control-sm" id="posy" placeholder="20" title="Posición Horizontal">
 </div>
