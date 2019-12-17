@@ -7,5 +7,10 @@ os:
 services:
   - docker
 script:
-  - lamp build
-  - mysql build
+  - docker build -t poligran .
+
+deploy:
+  provider: script
+  script:
+    docker push poligran;
+  branch: master
