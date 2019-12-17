@@ -20,7 +20,8 @@ RUN apt-get update && apt-get install -y \
     nano \
     net-tools \
     iproute2 \
-    iputils-ping
+    iputils-ping \
+    phpunit
 
 # Borramos cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
