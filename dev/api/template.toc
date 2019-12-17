@@ -58,7 +58,7 @@ echo <<<EOF
     <div class="input-group-prepend">
       <span class="input-group-text"><i class="fa fa-pencil"></i></span>
     </div>
-    <input type="text" class="form-control form-control-sm" id="nombre_persona" placeholder="Ingresa tu Nombre.">
+    <input type="text" class="form-control form-control-sm" id="nombre_persona" placeholder="Ingresa tu Información, Usa guión bajo '_' para simular un salto de página.">
 </div>
 
 <div class="p-1"></div>
@@ -97,16 +97,151 @@ echo <<<EOF
 </div>
 </div>
 </div>
+<div class="row mt-2">
+ <div class="col">
+  <div class="input-group" title="Selecciona la Fuente">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-font"></i></span>
+    </div>
+    <select class="form-control" id="font">
+    <option>Anton</option>
+    <option>Dosis</option>
+    <option>Lobster</option>
+    <option>Pacifico</option>
+    <option>Ubuntu</option>
+    </select>
+   </div>  
+  </div>
+</div>
+<fieldset class="rounded border border-info p-3 pb-3 mt-2">
+<legend class="rounded bg-info text-white h6 font-weight-bold p-2">Logos</legend>
+
+<div class="container" style="max-height:300px; overflow-y: scroll;">
+ <div class="row align-items-stretch justify-content-start card-deck">
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+      <label for="01">
+      <img src="logos/logo01.png" width="130" height="130">
+     </div>
+     <div class="card-footer">
+      <input type="radio" id="01" name="logo" value="logo01.png">&nbsp;OIL GAS
+      </label>
+     </div>
+    </div>
+   </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="02">
+     <img src="logos/logo02.png" width="130" height="130">
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="02" name="logo" value="logo02.png">&nbsp;CARREFOUR
+      </label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="03">
+     <img src="logos/logo03.png" width="130" height="130">
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="03" name="logo" value="logo03.png">&nbsp;DELHAIZE
+      </label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="04">
+      <img src="logos/logo04.png" width="130" height="130">
+     </label>
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="04" name="logo" value="logo04.png">
+      <label for="04">GOOGLE</label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="05">
+      <img src="logos/logo05.png" width="130" height="130">
+     </label>
+    </div>
+     <div class="card-footer" for="05">
+      <input type="radio" id="05" name="logo" value="logo05.png">
+      <label for="05">HOUZZ</label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="06">
+      <img src="logos/logo06.png" width="130" height="130">
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="06" name="logo" value="logo06.png">&nbsp;BOX
+      </label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="07">
+      <img src="logos/logo07.png" width="130" height="130">
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="07" name="logo" value="logo07.png">&nbsp;CANVA
+      </label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="08">
+      <img src="logos/logo08.png" width="130" height="130">
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="08" name="logo" value="logo08.png">&nbsp;PEPSI
+     </label>
+     </div>
+    </div>
+  </div>
+  <div class="col-auto">
+    <div class="card">
+     <div class="card-body">
+     <label for="09">
+      <img src="logos/logo09.png" for="09" width="130" height="130">
+    </div>
+     <div class="card-footer">
+      <input type="radio" id="09" name="logo" value="logo09.png">&nbsp;XIMETRIC
+     </label>
+     </div>
+    </div>
+  </div>
+ </div>
+</div>
 
 </fieldset>
-</form>
+
 </div>
+</fieldset>
+</form>
 <div class="col">
 <div class="card border-info ">
     <div class="card-header bg-info text-white font-weight-bold">Previsualización de la Tarjeta</div>
     <div class="card-body bg-light">
     <img id="previo">
-    </div>
+   </div>
 </div>
 </div>
 </div>
