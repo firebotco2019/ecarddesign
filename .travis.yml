@@ -8,9 +8,3 @@ services:
   - docker
 script:
   - docker build -t poligran .
-
-deploy:
-  provider: script
-  script:
-    docker push poligran;
-  branch: master
