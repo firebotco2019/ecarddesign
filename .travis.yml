@@ -1,9 +1,11 @@
-language: php
-php: 7.2
-os: linux
+language:
+  - php
+php:
+  - 7.2
+os:
+  - linux
 services:
   - docker
-
 script:
   - lamp build
   - mysql build
