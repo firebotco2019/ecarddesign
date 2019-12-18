@@ -46,14 +46,14 @@ echo <<<EOF
 <!-- Escribe o Copia y Pega el Código HTML5 desde Aquí -->
 
 <h1 class="p-3">eCardDesign</h1>
-<ul><li>Crea y Diseña tus Tarjetas de Presentación.</li></ul>
+<ul><li>Diseña tus Tarjetas de Presentación.</li></ul>
 
 <div id="ecard" class="p-3">
 <div class="row">
 <div class="col mb-3">
 <form>
 <fieldset class="rounded border border-info p-3">
-<legend class="rounded bg-info text-white h6 font-weight-bold p-2">Datos del Usuario</legend>
+<legend class="rounded bg-info text-white h6 font-weight-bold p-2">Diseño de la Tarjeta</legend>
 <div class="input-group">
     <div class="input-group-prepend">
       <span class="input-group-text"><i class="fa fa-pencil"></i></span>
@@ -113,12 +113,12 @@ echo <<<EOF
    </div>  
   </div>
 </div>
-<fieldset class="rounded border border-info p-3 pb-3 mt-2">
-<legend class="rounded bg-info text-white h6 font-weight-bold p-2">Logos</legend>
+<fieldset class="rounded border border-success p-3 pb-3 mt-2">
+<legend class="rounded bg-success text-white h6 font-weight-bold p-2">Logos</legend>
 
 <div class="container" style="max-height:300px; overflow-y: scroll;">
  <div class="row align-items-stretch justify-content-start card-deck">
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
       <label for="01">
@@ -130,7 +130,7 @@ echo <<<EOF
      </div>
     </div>
    </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="02">
@@ -142,7 +142,7 @@ echo <<<EOF
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="03">
@@ -154,7 +154,7 @@ echo <<<EOF
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="04">
@@ -167,7 +167,7 @@ echo <<<EOF
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="05">
@@ -180,49 +180,57 @@ echo <<<EOF
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="06">
       <img src="logos/logo06.png" width="130" height="130">
+     </label>
     </div>
      <div class="card-footer">
+     <label for="06">
       <input type="radio" id="06" name="logo" value="logo06.png">&nbsp;BOX
       </label>
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="07">
       <img src="logos/logo07.png" width="130" height="130">
+     </label>
     </div>
      <div class="card-footer">
+     <label for="07">
       <input type="radio" id="07" name="logo" value="logo07.png">&nbsp;CANVA
       </label>
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="08">
       <img src="logos/logo08.png" width="130" height="130">
+     </label>
     </div>
      <div class="card-footer">
+     <label for="08">
       <input type="radio" id="08" name="logo" value="logo08.png">&nbsp;PEPSI
      </label>
      </div>
     </div>
   </div>
-  <div class="col-auto">
+  <div class="col-auto mb-2">
     <div class="card">
      <div class="card-body">
      <label for="09">
       <img src="logos/logo09.png" for="09" width="130" height="130">
+     </label>
     </div>
      <div class="card-footer">
+     <label for="09">
       <input type="radio" id="09" name="logo" value="logo09.png">&nbsp;XIMETRIC
      </label>
      </div>
@@ -239,7 +247,7 @@ echo <<<EOF
 <div class="col">
 <div class="card border-info ">
     <div class="card-header bg-info text-white font-weight-bold">Previsualización de la Tarjeta</div>
-    <div class="card-body bg-light">
+    <div class="card-body bg-light" style="overflow: auto;">
     <img id="previo">
    </div>
 </div>
